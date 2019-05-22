@@ -1,0 +1,6 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@lxterminal -e /home/pi/autostartmirror.sh
+@lxterminal -e /home/pi/autostartassistant.sh
+point-rpi
