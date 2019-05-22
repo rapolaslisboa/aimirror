@@ -18,11 +18,11 @@ python3 -m venv env
 echo "Passou do python3 -m venv env" 
 env/bin/python -m pip install --upgrade pip setuptools wheel
 source env/bin/activate
-sudo apt-get install portaudio19-dev libffi-dev libssl-dev libmpg123-dev -y
+sudo apt-get install portaudio19-dev libffi-dev libssl-dev libmpg123-dev
 echo "Passo 1"
-python -m pip install --upgrade google-assistant-library==1.0.1 -y
+python -m pip install --upgrade google-assistant-library==1.0.1
 echo "Passo 2"
-python -m pip install --upgrade google-assistant-sdk[samples]==0.5.1 -y
+python -m pip install --upgrade google-assistant-sdk[samples]==0.5.1
 echo "Passo 3"
 sudo apt-get install python-pip
 echo "Passo do pip"
