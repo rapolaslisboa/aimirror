@@ -5,6 +5,7 @@ sudo apt-get update -y
 sudo apt-get --assume-yes install curl wget git build-essential unzip -y || exit
 curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 sudo apt-get install nodejs -y
+cd
 git clone https://github.com/MichMich/MagicMirror.git AI-Mirror
 cd AI-Mirror
 npm install -y
