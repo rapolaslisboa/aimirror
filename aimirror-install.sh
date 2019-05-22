@@ -28,6 +28,7 @@ deactivate
 sudo mv /home/pi/setupAIMirror/autostart /etc/xdg/lxsession/LXDE-pi
 sudo mv /home/pi/setupAIMirror/hotword.py /home/pi/env/lib/python3.5/site-packages/googlesamples/assistant/library
 sudo rm -r setupAIMirror
+sudo chdmod +x /etc/xdg/lxsession/LXDE-pi/autostart
 
 
 
