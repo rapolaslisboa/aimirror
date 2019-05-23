@@ -15,7 +15,7 @@ sudo mv /home/pi/setupAIMirror/config.js /home/pi/AI-Mirror/config
 sudo mv /home/pi/setupAIMirror/.asoundrc /home/pi
 sudo mv /home/pi/setupAIMirror/autostartassistant.sh /home/pi
 sudo mv /home/pi/setupAIMirror/autostartmirror.sh /home/pi
-sudo chmod +x /home/pi/autostartsassistant.sh
+sudo chmod +x /home/pi/autostartassistant.sh
 sudo chmod +x /home/pi/autostartmirror.sh
 sudo apt-get install python3-dev python3-venv -y 
 python3 -m venv env
