@@ -13,7 +13,7 @@ npm install -y
 cd
 sudo mv /home/pi/setupAIMirror/config.js /home/pi/AI-Mirror/config
 sudo mv /home/pi/setupAIMirror/.asoundrc /home/pi
-sudo mv /home/pi/setupAIMirror/autostartsassistant.sh /home/pi
+sudo mv /home/pi/setupAIMirror/autostartassistant.sh /home/pi
 sudo mv /home/pi/setupAIMirror/autostartmirror.sh /home/pi
 sudo chmod +x /home/pi/autostartsassistant.sh
 sudo chmod +x /home/pi/autostartmirror.sh
