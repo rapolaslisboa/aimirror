@@ -32,9 +32,7 @@ sudo apt-get install picap -y
 deactivate
 sudo mv /home/pi/setupAIMirror/autostart /etc/xdg/lxsession/LXDE-pi
 sudo mv /home/pi/setupAIMirror/hotword.py /home/pi/env/lib/python3.5/site-packages/googlesamples/assistant/library
-sudo rm -r setupAIMirror
 sudo chmod +x /etc/xdg/lxsession/LXDE-pi/autostart
-sudo chmod +x /etc/xdg/lxseddion/LXDE-pi/autostart
 sudo rm -r setupAIMirror
 
 
