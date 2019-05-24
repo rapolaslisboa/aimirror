@@ -27,7 +27,7 @@ password: password-for-device
 
 ## Activating API
 
-* In order to enable the Google Assistant API, you need to access the following website https://ouo.io/VC4jBP 
+In order to enable the Google Assistant API, you need to access the following website https://ouo.io/VC4jBP 
 
 
 ## Installation
@@ -80,6 +80,29 @@ If you need to change the ports of the audio devices, access the .asoundrc file 
 cd /home/pi
 nano .asoundrc
 ```
+
+**How to change Google Assistant volume**
+
+If your Assistant's volume is too low, you can increase it by asking her to do it.
+```
+Ok Google!
+Set volume to 100%.
+```
+## Setting your personal calendar
+
+Setting up your personal calendar to your mirror's interface it is very simple.
+
+* First access your Google Calendar at https://calendar.google.com/calendar/.
+* Go to settings.
+* Open the config.json file and paste your calendar link where it is written YOUR_PERSONAL_CALENDAR_LINK_HERE.
+
+## Changing your Google Assistant language
+
+* Open your Google Home app in your device and sign in to your account.
+* Go to settings -> Assistant tab -> Languages.
+* Choose your language.
+
+
 
 ## Modules
 
