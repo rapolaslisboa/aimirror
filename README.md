@@ -27,7 +27,7 @@ password: password-for-device
 
 ## Activating API
 
-In order to enable the Google Assistant API, you need to access the following website https://ouo.io/VC4jBP 
+In order to enable the Google Assistant API, you need to access the following website https://ouo.io/VC4jBP.
 
 
 ## Installation
@@ -102,6 +102,7 @@ Setting up your personal calendar to your mirror's interface it is very simple.
 * Go to settings -> Assistant tab -> Languages.
 * Choose your language.
 
+![alt text](https://i.imgur.com/DbLaWK9.png)
 
 
 ## Modules
