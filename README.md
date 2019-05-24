@@ -27,7 +27,13 @@ password: password-for-device
 
 ## Activating API
 
-In order to enable the Google Assistant API, you need to access the following website https://ouo.io/VC4jBP.
+In order to enable the Google Assistant API first access the following website https://ouo.io/VC4jBP.
+* Select your project at the top of the page.
+* Click ENABLE.
+* You now need to set up an OAuth consent. Visit
+![alt text](https://i.imgur.com/itewUKU.png)
+* On this page, you'll give your app a name and link an email to Google Assistant.
+* Click SAVE.
 
 
 ## Installation
