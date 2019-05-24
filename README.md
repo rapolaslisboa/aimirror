@@ -61,7 +61,7 @@ cd /home/pi
 ```
 Execute the following command on your Raspberry Pi to install AI Mirror:
 ``` 
-bash -c "$(curl -sL https://raw.githubusercontent.com/rapolaslisboa/setupAIMirror/master/aimirror-install.sh)" 
+bash -c "$(curl -sL https://raw.githubusercontent.com/LiquidGalaxyLAB/AI-Mirror-LG/master/aimirror-install.sh)" 
 ```
 After installation, restart your computer.
 ``` 
