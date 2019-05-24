@@ -1,8 +1,23 @@
 # AI Mirror
 
-![alt text](https://i.imgur.com/CKaDBeJ.jpg)
+![alt text](https://i.imgur.com/mhjXR8K.png)
 
 AI Mirror is a project that uses the smart mirror technique and is based on the MagicMirror project to develop an interactive mirror with Google Assistant integration. The project was made by the students Rápolas Lisboa and Ricardo Zaponi. Further information about MagicMirror at https://magicmirror.builders/.
+
+## Pre requisites
+
+As pre requisites to install AI Mirror, there are:
+
+* A Raspberry Pi 3 with Raspbian operating system.
+To install the Raspbian operating system, visit https://www.raspberrypi.org/downloads/raspbian/. The Raspbian must be installed in a micro USB of at least 16 GB.
+* Microphone.
+* Google account.
+* Speaker.
+* Monitor.
+* Acrylic mirror.
+* Softwares with remote access make installation much easier. Among them are **Putty** and **VNC Viewer**.
+
+
 
 ## Registering a device
 
@@ -30,8 +45,10 @@ password: password-for-device
 In order to enable the Google Assistant API first access the following website https://ouo.io/VC4jBP.
 * Select your project at the top of the page.
 * Click ENABLE.
-* You now need to set up an OAuth consent. Visit
+* You now need to set up an OAuth consent. Visit https://console.developers.google.com/apis/credentials/consent.
+
 ![alt text](https://i.imgur.com/itewUKU.png)
+
 * On this page, you'll give your app a name and link an email to Google Assistant.
 * Click SAVE.
 
@@ -100,7 +117,26 @@ Setting up your personal calendar to your mirror's interface it is very simple.
 
 * First access your Google Calendar at https://calendar.google.com/calendar/.
 * Go to settings.
+
+![alt text](https://i.imgur.com/TmqEvAv.png)
+
+* In the left corner, you will click on your calendar.
+* On this page, under access permission, you must enable the **Publicly share** dialog box.
+
+![alt text](https://i.imgur.com/pDdaRgh.png)
+
+* Now, you will need the link from your personal calendar to integrate with the mirror. To do it, select **Integrate the calendar** in the left corner.
+
+![alt text](https://i.imgur.com/tlGyiLM.png)
+
+* Then you will look for **Secret address in iCal format**. Copy it.
+
+![alt text](https://i.imgur.com/OyE2hg6.png)
+
+
 * Open the config.json file and paste your calendar link where it is written YOUR_PERSONAL_CALENDAR_LINK_HERE.
+* Now your personal list is connected with the mirror!
+
 
 ## Changing your Google Assistant language
 
