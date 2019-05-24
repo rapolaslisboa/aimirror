@@ -50,7 +50,7 @@ sudo reboot
 In order to enable the token, take a look at the following:
 
 ``` 
-cd
+cd /home/pi
 source env/bin/activate
 python -m pip install --upgrade google-auth-oauthlib[tool]
 google-oauthlib-tool --client-secrets credentials.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless
