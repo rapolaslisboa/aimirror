@@ -10,7 +10,7 @@ AI Mirror is a project that uses the smart mirror technique and is based on the 
 * Click "ADD/IMPORT PROJECT".
 * Choose a name for your project and click on "CREATE PROJECT".
 * Click the "DEVICE REGISTRATION" tab at the bottom of the page.
-* On the next page, select the REGISTER MODEL option..
+* On the next page, select the REGISTER MODEL option.
 * Enter the product name (you can put any), the name of the manufacturer (you can put any) and select Speaker as the device type.
 * Your device is registered! Download the credentials of your device by clicking the Download OAuth 2.0 credentials.
 * If you are using SSH and want to copy the credentials for Raspberry PI, use the command below:
@@ -39,6 +39,10 @@ cd /home/pi
 Execute the following command on your Raspberry Pi to install AI Mirror:
 ``` 
 bash -c "$(curl -sL https://raw.githubusercontent.com/rapolaslisboa/setupAIMirror/master/aimirror-install.sh)" 
+```
+After installation, restart your computer.
+``` 
+sudo reboot
 ```
 
 ## Activating token
@@ -78,7 +82,7 @@ nano .asoundrc
 
 ## Modules
 
-Find 3rd party modules to implement in your project at https://github.com/MichMich/MagicMirror/wiki/3rd-party-modules
+Find 3rd party modules to implement in your project at https://github.com/MichMich/MagicMirror/wiki/3rd-party-modules.
 
 
 
